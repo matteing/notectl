@@ -1,0 +1,26 @@
+# notectl: kicks plaintext ass
+
+# My personal configuration.
+
+[paths]
+root = "/Users/sergio/iCloud/Notes"
+inbox_folder = "Inbox"
+topic_notes_folder = "Topics"
+daily_notes_folder = "Inbox"
+attachments_folder = "Attachments"
+
+[attachments]
+folders_to_tidy = ["Inbox", "Permanent Notes", "Clippings"]
+
+[daily_notes]
+with_autoindex = true
+
+[topic_notes]
+with_autoindex = true
+
+[editor]
+command = "open -a 'iA Writer'"
+
+[git]
+# Enables a Git snapshot before any potentially destructive actions.
+enable_git_snapshot = true

@@ -1,0 +1,38 @@
+# notectl: kicks plaintext ass
+
+# All paths specified are relative to the vault root unless stated otherwise.
+
+[paths]
+# The root directory of your notes vault.
+root = "/path/to/your/vault"
+
+# Where incoming notes are placed.
+inbox_folder = "inbox"
+
+# Where topic files are stored.
+topic_notes_folder = "topics"
+
+# Where daily notes are stored.
+daily_notes_folder = "daily_notes"
+
+# Where attachments are collected and stored. Absolute path.
+attachments_folder = "attachments"
+
+[attachments]
+folders_to_tidy = []
+
+[daily_notes]
+# Whether to enable the autoindex section when generating the daily note.
+with_autoindex = true
+
+[topic_notes]
+# Whether to enable the autoindex section when generating the daily note.
+with_autoindex = true
+
+[editor]
+# Command to create or open a file.
+command = "nano"
+
+[git]
+# Enables a Git snapshot before any potentially destructive actions.
+enable_git_snapshot = false

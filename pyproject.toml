@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "notectl"
+version = "0.1.0"
+description = ""
+authors = ["Sergio Mattei <me@matteing.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+notectl = "notectl.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+typer = {extras = ["all"], version = "^0.9.0"}
+platformdirs = "^4.2.0"
+rich = "^13.7.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
