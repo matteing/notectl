@@ -23,7 +23,7 @@ In lieu of documentation, here's some sample usage:
 poetry install
 notectl --install-completion
 
-# Configure it
+# Configure it (check the `conf` folder for examples)
 notectl config init
 
 # Create daily notes
