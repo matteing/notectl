@@ -10,6 +10,13 @@ It isn't concerned with note *taking*, that's up to you. However, its opinionate
 
 Simply put, it kicks some plaintext *ass*. 
 
+## Features
+- Daily notes: opens a Markdown note with today's (or tomorrow's) date
+- Attachment management: moves any scattered attachments into a single folder
+- Backlinking: automatic backlinking for notes, with filtering support (filter backlinks by #tag or date)
+- Topical notes template with automatic indexing
+- Automatic Git snapshots before any automatic change to your notes
+
 ## Why?
 I don't want to be tied to a particular text editor for my notes. I'd like to use Obsidian features, such as attachment management and automatic backlink indexing, but prefer using iA Writer.
 
