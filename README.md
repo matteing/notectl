@@ -4,7 +4,7 @@ A simple note management tool.
 
 ## Description
 
-`notectl` provides an portable suite of tools you can use to organize and backlink your plain-text notes. It isn't tied to any specific text editor.
+`notectl` provides a portable suite of tools you can use to organize and backlink your plain-text notes. It isn't tied to any specific text editor.
 
 It isn't concerned with note *taking*, that's up to you. However, its opinionated nature means it contains tools useful for building a second-brain, such as quick "daily note" creation. 
 
