@@ -12,7 +12,8 @@ Simply put, it kicks some plaintext *ass*.
 
 ## Features
 - Daily notes: opens a Markdown note with today's (or tomorrow's) date
-- Attachment management: moves any scattered attachments into a single folder
+- Supports iA Writer attachments ("content blocks")
+- Moves any scattered attachments into a single folder
 - Backlinking: automatic backlinking for notes, with filtering support (filter backlinks by #tag or date)
 - Topical notes template with automatic indexing
 - Git snapshots before any automatic change to your notes
